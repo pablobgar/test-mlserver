@@ -1,11 +1,11 @@
 # test-mlserver
 
-Install poetry
+### Install poetry
 ``` bash
 poetry install
 ```
 
-Run app
+### Run app
 ``` bash
 poetry run app-start
 ```
