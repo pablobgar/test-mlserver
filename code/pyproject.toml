@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "scoringsample"
+version = "1.2.0-dev"
+description = "Showcase for machine learning base microservice"
+authors = ["John Smith <john@example.com>"]
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "scoringsample" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.8.0"
+mlserver = "~1.1.0"
+urllib3 = "^1.26.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pylint = "^2.8.3"
+isort = "^5.8.0"
+black = "^22.0"
+pytest-cov = "^3.0.0"
+pytest-asyncio = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "--cov=scoringsample --cov-report=xml"

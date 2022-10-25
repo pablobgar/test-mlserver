@@ -1,0 +1,6 @@
+{
+	"debug": true,
+	"load_models_at_startup": true,
+	"logging_settings": "./log_config.ini",
+	"parallel_workers": 2
+}
