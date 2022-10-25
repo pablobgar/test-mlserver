@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+code/resources/generate_base64_req.py
