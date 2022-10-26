@@ -1,6 +1,6 @@
 # test-mlserver
 
-### Install poetry
+### Install dependencies
 ``` bash
 poetry install
 ```
