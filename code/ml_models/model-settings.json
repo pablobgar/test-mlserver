@@ -1,7 +1,7 @@
 {
     "name": "helloworld",
     "implementation": "scoringsample.helloworld_example.CustomModel_helloworld",
-    "max_batch_size": 300,
+    "max_batch_size": 200,
     "max_batch_time": 0.05,
     "parameters": {
         "uri": "./mnist-svm.joblib",

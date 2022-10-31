@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 code/resources/generate_base64_req.py
+code/resources/generate_base64_grpc_req.py
+code/resources/generate_grpc_req.py
